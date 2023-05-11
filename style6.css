@@ -166,6 +166,7 @@ div.landing{
     box-sizing: border-box;
     align-items: center;
     /* background-color: #fff; */
+    z-index: -100;
 
 }
 .focus-heading{
