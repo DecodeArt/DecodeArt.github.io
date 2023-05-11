@@ -31,7 +31,7 @@ div.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--secondary-background-navbar-color);
+    /* background-color: var(--secondary-background-navbar-color); */
     padding: 10px;
     height: 3em;
 }
@@ -173,13 +173,17 @@ div.navbar{
     /* font-family: 'Rubik', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
-    transform: translateY(55vh);
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);  
     /* transform: translateY(1); */
     font-size: 5.5rem;
     /* margin-top: calc(100vh - 44%); */
     /* margin-top: 15vh; */
     color: rgb(255, 255, 255);
     /* margin: auto; */
+    width: 60%;
     /* justify-self: center; */
     margin-left: 50px;
     /* font-family: 'DM Sans', sans-serif; */
