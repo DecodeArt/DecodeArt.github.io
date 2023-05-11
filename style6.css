@@ -4,6 +4,7 @@
     /* border: 1px solid rgba(31, 255, 255, 0.801); */
     /* border-radius: 4px;  */
     text-decoration: none;
+    max-width: 100%;
 }
 :root{
     --text-size-adjust: 1.1em;
@@ -23,6 +24,7 @@
 }
 html{
     background-color: var(--secondary-background-color);
+    /* display: flex; */
 }
 
 div.navbar{
@@ -139,7 +141,7 @@ div.navbar{
     
 }
 .logo{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     padding-right: 20px;
     padding-left: 10px;
@@ -155,22 +157,35 @@ div.navbar{
 }
 
 /* Web page navigantion ends ere and real webpage starts here */
+div.landing{
+    display: flex;
+    position: static;
+    width: 100%;
+    height: calc(100vh);
+    transform: translateY(-58px);
+    box-sizing: border-box;
+    align-items: center;
+    /* background-color: #fff; */
 
+}
 .focus-heading{
+    position: absolute;
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Rubik', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
-    font-size: 13vh;
-    width: 60.03vw;
+    font-size: 14vh;
+    width: 60vw;
     /* margin-top: calc(100vh - 44%); */
-    margin-top: calc(100vh - 46%);
+    /* margin-top: 15vh; */
     color: rgb(255, 255, 255);
+    /* margin: auto; */
+    /* justify-self: center; */
     margin-left: 50px;
     /* font-family: 'DM Sans', sans-serif; */
     /* font-family: 'Jost', sans-serif; */
-    /* font-family: 'Kumbh Sans', sans-serif; */
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    /* font-family: 'Questrial', sans-serif; */
     
 }
 .Impossible{
