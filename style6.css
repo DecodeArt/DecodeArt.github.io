@@ -17,7 +17,7 @@
     --secondary-background-color: #1b1d22;
     --secondary-background-navbar-color: #24272c;
     --secondary-background-color-two-red: #92412B;
-    --ui-primeary-color-dark: rgb(211, 97, 68);
+    --ui-primeary-color-dark: rgb(216, 93, 45);
     --ui-primery-color: rgb(235, 186, 112);
     --Logo-gradent2: linear-gradient(135deg, #53cbf3, #f163af);
 }
@@ -95,6 +95,9 @@ div.navbar{
     justify-content: space-around;
     opacity: 98%;
     transition-duration: 150ms ;
+}
+.login button span{
+    justify-content: center;
 }
 .login button:hover{
     opacity: 100%;
