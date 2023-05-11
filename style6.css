@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid rgba(31, 255, 255, 0.801); */
+    /* border-radius: 4px;  */
+    text-decoration: none;
+}
+:root{
+    --text-size-adjust: 1.1em;
+    --text-color: white;
+    --primery-color: #6DCFF6;
+    --primery-color-two-Pink-Ui: #E485B7;
+    --primery-color-three-DullYellow: #E5CE51;
+    --secondary-color: #5888A1;
+    --secondary-color-two-fade: #64A6DF; 
+    --secondary-color-three-red: #E16543 ;
+    --secondary-background-color: #1b1d22;
+    --secondary-background-navbar-color: #24272c;
+    --secondary-background-color-two-red: #92412B;
+    --ui-primeary-color-dark: rgb(211, 97, 68);
+    --ui-primery-color: rgb(235, 186, 112);
+    --Logo-gradent2: linear-gradient(135deg, #53cbf3, #f163af);
+}
+html{
+    background-color: var(--secondary-background-color);
+}
+
+div.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: var(--secondary-background-navbar-color); */
+    padding: 10px;
+    height: 3em;
+}
+.nav{
+    /* justify-self: center; */
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    /* border-left: 0.15em solid var(--text-color); */
+    /* padding-left: 20px; */
+}
+
+.nav ul li{
+    margin: 0.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    font-size: var(--text-size-adjust);
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.nav ul li::after{
+    content: "";
+    display: block;
+    position: relative;
+    width: 0%;
+    height: 0.12rem;
+    background-color: var(--text-color);
+    transition-duration: 250ms;
+}
+.nav ul li:hover::after{
+    width: 100%;
+}
+
+.login{
+    display: block;
+    /* margin-left: auto; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    color: var(--text-color);
+}
+.login button{
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:var(--ui-primeary-color-dark);
+    font-size: var(--text-size-adjust);
+    display: flex;
+    color: var(--text-color);
+    transition-duration: 200ms;
+    z-index: 50;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    /* height: 2.4em;
+    width: 2.4em; */
+    /* border: ; */
+    justify-content: space-around;
+    opacity: 98%;
+    transition-duration: 150ms ;
+}
+.login button:hover{
+    opacity: 100%;
+    /* background-color: rgba(255, 255, 255, 0.100); */
+}
+.login button img{
+    height: 1.6em;
+    /* filter: ; */
+}
+.login button span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    word-spacing: 0.09em;
+    font-weight: 600;
+}
+.login button::before{
+    overflow: hidden;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 38px;
+    height: 60px;
+    background-color: #ffffff38;
+    transform: translate(-6.12em, -16px) rotateZ(25deg);
+    z-index: 50;
+    transition-duration: 315ms;
+    transition-timing-function: ease-out;
+}
+.login button:hover::before{
+    transform: translate(6.21em, -16px) rotateZ(25deg);
+}
+/* .login button::after{
+    content: "";
+    font-family: Webdings;
+    position: realtive;
+} */
+.login button:hover{
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 10px;
+    justify-self: center;
+    transform: translateY(0.06em);
+}
+.logo img{
+    /* width: 50px;
+    height: 50px; */
+    height: 2em;
+    /* filter: invert(); */
+    /* transform: translateX(280px); */
+}
+
+/* Web page navigantion ends ere and real webpage starts here */
+
+.focus-heading{
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    font-size: 6em;
+    width: 60.03vw;
+    margin-top: 18vh;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+.Impossible{
+    background: var(--Logo-gradent2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
