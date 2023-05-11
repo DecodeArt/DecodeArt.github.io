@@ -112,6 +112,7 @@ div.navbar{
     font-size: 1.1em;
     word-spacing: 0.09em;
     font-weight: 600;
+    margin: auto;
 }
 .login button::before{
     overflow: hidden;
