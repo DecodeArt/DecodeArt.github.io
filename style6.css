@@ -160,10 +160,10 @@ div.navbar{
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Rubik', sans-serif; */
     font-family: 'Work Sans', sans-serif;
-    font-weight: bolder;
+    font-weight: 800;
     font-size: 13vh;
     width: 60.03vw;
-    textstro
+    /* text */
     /* margin-top: calc(100vh - 44%); */
     margin-top: calc(100vh - 46%);
     color: rgb(255, 255, 255);
@@ -172,6 +172,7 @@ div.navbar{
     /* font-family: 'Jost', sans-serif; */
     /* font-family: 'Kumbh Sans', sans-serif; */
     font-family: 'Questrial', sans-serif;
+    
 }
 .Impossible{
     background: var(--Logo-gradent2);
