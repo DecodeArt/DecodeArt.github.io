@@ -173,7 +173,7 @@ div.navbar{
     /* font-family: 'Rubik', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
-    transform: translateY(55%);
+    transform: translateY(55vh);
     /* transform: translateY(1); */
     font-size: 5.5rem;
     /* margin-top: calc(100vh - 44%); */
