@@ -229,7 +229,7 @@ span.Decode {
     background-clip: text;
 }
 .circle{
-    font-size: 1.35em;
+    /* font-size: 1.35em; */
     background: var(--Logo-gradent1);
     /* letter-spacing: 0.02em; */
     -webkit-background-clip: text;
