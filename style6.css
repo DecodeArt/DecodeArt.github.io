@@ -203,3 +203,20 @@ div.navbar{
         font-size: 18vh;
     }
 }
+@media screen and (max-width: 795px) {
+    .login{
+        display: none;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .focus-heading{
+        text-align: center;
+        font-size: 10vw;
+        margin: 0;
+        top: 50%;
+        width: 7em;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, calc(-50% + 6vh));
+    }
