@@ -172,8 +172,8 @@ div.navbar{
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Rubik', sans-serif; */
     font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.02em;
+    font-weight: 700;
+    letter-spacing: -0.02em;
     word-spacing: 0.05em;
     /* spacing */
     position: absolute;
@@ -214,10 +214,11 @@ div.navbar{
     }
     .navbar{
         flex-direction: column;
+        height: 4.55em !important;
     }
     .focus-heading{
         text-align: center;
-        font-size: 10vw;
+        font-size: 14.5vh;
         margin: 0;
         top: 50%;
         width: 65vw;
