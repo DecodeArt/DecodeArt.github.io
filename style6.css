@@ -200,6 +200,6 @@ div.navbar{
 }
 @media screen and (max-height: 550px){
     .focus-heading{
-        font-size: 20vh;
+        font-size: 18vh;
     }
 }
