@@ -31,7 +31,7 @@ div.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: var(--secondary-background-navbar-color); */
+    background-color: var(--secondary-background-navbar-color);
     padding: 10px;
     height: 3em;
 }
@@ -173,22 +173,26 @@ div.navbar{
     /* font-family: 'Rubik', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
+    letter-spacing: 0.02em;
+    word-spacing: 0.05em;
+    /* spacing */
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);  
     /* transform: translateY(1); */
-    font-size: 10vw;
+    font-size: 7vw;
     /* margin-top: calc(100vh - 44%); */
     /* margin-top: 15vh; */
     color: rgb(255, 255, 255);
     /* margin: auto; */
-    width: 70vw;
+    width: 60vw;
     /* justify-self: center; */
     margin-left: 50px;
     /* font-family: 'DM Sans', sans-serif; */
     /* font-family: 'Jost', sans-serif; */
-    font-family: 'Kumbh Sans', sans-serif;
+    /* font-family: 'Kumbh Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     /* font-family: 'Questrial', sans-serif; */
     
 }
