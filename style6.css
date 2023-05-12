@@ -203,7 +203,7 @@ div.navbar{
         font-size: 18vh;
     }
 }
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 950px) {
     .login{
         display: none;
     }
