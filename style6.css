@@ -203,7 +203,7 @@ span.Decode {
     word-spacing: 0.05em;
     /* spacing */
     position: absolute;
-    top: 50%;
+    top: 55%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);  
     /* transform: translateY(1); */
