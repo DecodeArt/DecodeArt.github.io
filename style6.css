@@ -198,3 +198,8 @@ div.navbar{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+@media screen and (max-height: 550px){
+    .focus-heading{
+        font-size: 20vh;
+    }
+}
