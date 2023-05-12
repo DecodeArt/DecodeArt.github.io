@@ -183,7 +183,7 @@ div.navbar{
     /* margin-top: 15vh; */
     color: rgb(255, 255, 255);
     /* margin: auto; */
-    width: 60%;
+    width: 70vw;
     /* justify-self: center; */
     margin-left: 50px;
     /* font-family: 'DM Sans', sans-serif; */
@@ -215,7 +215,7 @@ div.navbar{
         font-size: 10vw;
         margin: 0;
         top: 50%;
-        width: 7em;
+        width: 65vw;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, calc(-50% + 6vh));
